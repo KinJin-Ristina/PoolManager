@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{C2F1E09D-06DF-4E12-83EB-E5E5BEBD3DD2}|单元测试">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PoolManager1/Subpool.cs">
+    <Files>
+      <File FileName="Assets/PoolManager2/BufferPoolManager.cs" Line="27" Column="28" />
+      <File FileName="Assets/PoolManager2/IReuse.cs" Line="8" Column="20" />
+      <File FileName="Assets/PoolManager1/IControl.cs" Line="5" Column="24" />
+      <File FileName="Assets/PoolManager1/Subpool.cs" Line="62" Column="10" />
+      <File FileName="Assets/PoolManager1/Bullet.cs" Line="64" Column="2" />
+      <File FileName="Assets/PoolManager1/CreatBulletScript.cs" Line="25" Column="33" />
+      <File FileName="Assets/PoolManager1/PoolManager.cs" Line="42" Column="5" />
+      <File FileName="Assets/PoolManager2/BufferPool.cs" Line="80" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowVersionControlOverlays" value="False" />
+          <Node name="SubPool" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="PoolManager1" expanded="True">
+                <Node name="Subpool.cs" selected="True" />
+              </Node>
+              <Node name="PoolManager2" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
