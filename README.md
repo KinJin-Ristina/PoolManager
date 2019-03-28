@@ -3,15 +3,6 @@ A PoolManager Practice
 
 对象池类:
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-/// <summary>
-/// 对象池类
-/// </summary>
-public class PoolManager
-{
     //单例
     private static PoolManager instance;
 
@@ -78,15 +69,6 @@ public class PoolManager
         poolDic.Clear ();
     }
 }
- 
-
-　　 管理相同类型的对象:
-
- 
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 /// <summary>
 /// 管理相同类型的对象
@@ -180,13 +162,6 @@ public class Subpool
 
 }
  
-
-　　取对象和回收对象的接口:
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public interface IControl
 {
 
@@ -198,11 +173,6 @@ public interface IControl
     void UnSpawn () ;
 
 }
-　　调用方式Manager:
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 /// <summary>
 /// 生成子弹,挂载在Manager上
@@ -243,11 +213,6 @@ public class CreatBulletScript : MonoBehaviour
         }
     }
 }
-　　生成的子弹:
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 /// <summary>
 /// 挂载在Bullet上
@@ -271,15 +236,6 @@ public class Bullet : MonoBehaviour
         }
     }
 }
-　　PoolManager.unitypackage.zip Demo下载
-
- 对象池优化版,在Spawn的时候,对它进行赋值操作..
-
-SubPool:
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 /// <summary>
 /// 管理相同类型的对象
@@ -381,11 +337,6 @@ public class Subpool
     }
 
 }
-PoolManager:
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 /// <summary>
 /// 对象池类
 /// </summary>
@@ -463,11 +414,6 @@ public class PoolManager
         poolDic.Clear();
     }
 }
- Bullet中:
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 /// <summary>
 /// 挂载在Bullet上
